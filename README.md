@@ -61,14 +61,14 @@ Son 20 katman fine-tuning ile eğitilmiş ve performanslarında gözle görülü
 
 | Model          | Eğitim Doğruluğu | Doğrulama Doğruluğu |
 |----------------|-----------------|-------------------|
-| EfficientNetB0 |                 |                   |
-| MobileNetV2    | ~96%            | ~93%              |
-| DenseNet169    | ~93%            | ~87%              |
-| ResNet50       | ~98%            | ~91%              |
-| VGG16          |                 |                   |
-| InceptionV3    |                 |                   |
-| CustomCNN      |                 |                   |
-| CustomCNN_Bayesian_Turner |      |                   |
+| EfficientNetB0 | ~89%            | ~83%              |
+| MobileNetV2    | ~95%            | ~92%              |
+| DenseNet169    | ~92%            | ~86%              |
+| ResNet50       | ~98%            | ~90%              |
+| VGG16          | ~99%            | ~94%              |
+| InceptionV3    | ~92%            | ~85%              |
+| CustomCNN      | ~84%            | ~71%              |
+| CustomCNN_Bayesian_Turner | ~81% | ~77%              |
 
 
 Transfer learning ile elde edilen modeller en başarılı sonuçları göstermiştir. Veri sayısı yeterli olmadığında, transfer learning ile yüksek performans elde edilebilmektedir. Özel CNN modellerde hiperparametre optimizasyonu yapılsa da, en yüksek doğruluk transfer learning ile sağlanmıştır.
