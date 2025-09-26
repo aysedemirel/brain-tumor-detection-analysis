@@ -4,7 +4,7 @@
 
 Bu proje, beyin MR görüntüleri üzerinden tümör tespiti yapmak amacıyla geliştirilmiştir. Amaç, sınırlı bir veri seti kullanarak farklı ön eğitimli konvolüsyonel sinir ağı (CNN) modellerinin performansını incelemek, fine-tuning yöntemleri ile sınıflandırma doğruluğunu artırmak ve küçük veri setlerinde etkin modelleri belirlemektir.
 
-Proje kapsamında [brain-mri-images-for-brain-tumor-detection](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) veri seti kullanılmıştır. Orijinal veri setinde 253 MR görüntüsü bulunmakta olup, data augmentation ile 1.737 eğitim, 450 doğrulama ve 90 test görüntüsü elde edilmiştir. Sınıflar “Tümör” ve “Tümör Yok” şeklindedir.
+Proje kapsamında [brain-mri-images-for-brain-tumor-detection](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) veri seti kullanılmıştır. Orijinal veri setinde 253 MR görüntüsü bulunmakta olup, data augmentation ile 1.737 eğitim, 450 doğrulama ve 90 test görüntüsü elde edilmiştir. Sınıflar “Tümör”(YES) ve “Tümör Yok”(NO) şeklindedir.
 
 ---
 
